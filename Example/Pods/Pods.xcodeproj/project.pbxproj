@@ -50,7 +50,6 @@
 		DF702750EB657D2712E56CB7142E1482 /* NSDate_ConvenientDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A756537CC638702C497D4B0FA1867566 /* NSDate_ConvenientDates.swift */; };
 		E6C9F3FCFFFBC47FAFBEF97D974ADA9F /* KSTractates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E99A1BE4D64B8E28593022CC35975A /* KSTractates.swift */; };
 		EA7A9F25A4265492FE63E173668954DD /* Pods-KosherSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6ABE2C5A6068D14738C29E1A8B45BA3 /* Pods-KosherSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2AF4D57BCF308C6469250AB17612E33 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 68D7D0BE5AD5460F9379E1DDFF018DB1 /* Info.plist */; };
 		F6F9AE071C0649CDB29447CBA36ECF71 /* kWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8CCE2D935AEF7E0364126FCA9DEC6C /* kWeekday.swift */; };
 		F7E21C597D7A458485C90CB939D5BDAC /* KSSefiratHaomerCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F952CA831F3B372DE4AF3199928C790 /* KSSefiratHaomerCalculator.swift */; };
 		F90D5CDF1132BAD19F6A42A98EFC1301 /* KSZenithExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15211447B9DBCE93DB89956B561505D7 /* KSZenithExtended.swift */; };
@@ -491,6 +490,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -509,7 +509,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2AF4D57BCF308C6469250AB17612E33 /* Info.plist in Sources */,
 				6C2A6A1E44E6517D750D645DE865A3B8 /* kHebrewYearType.swift in Sources */,
 				4885FCA9FE2C8533C7C05ED60A2AAD6B /* KosherSwift-dummy.m in Sources */,
 				8D9EC3F4C53831F13179B24281F96B80 /* KSAstronomical.swift in Sources */,
@@ -631,6 +630,7 @@
 				PRODUCT_NAME = KosherSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -778,6 +778,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
